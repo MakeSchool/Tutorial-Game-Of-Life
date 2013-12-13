@@ -197,6 +197,8 @@
 		6267A4FD185A8AED0053C5EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267A4FC185A8AED0053C5EC /* AppDelegate.m */; };
 		6267A500185A8AED0053C5EC /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267A4FF185A8AED0053C5EC /* HelloWorldScene.m */; };
 		6267A50A185A8C810053C5EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6267A509185A8C810053C5EC /* Images.xcassets */; };
+		6267A510185A92CC0053C5EC /* Creature.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267A50D185A92CC0053C5EC /* Creature.m */; };
+		6267A511185A92CC0053C5EC /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 6267A50F185A92CC0053C5EC /* Grid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -611,6 +613,10 @@
 		6267A4FE185A8AED0053C5EC /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		6267A4FF185A8AED0053C5EC /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		6267A509185A8C810053C5EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6267A50C185A92CC0053C5EC /* Creature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Creature.h; sourceTree = "<group>"; };
+		6267A50D185A92CC0053C5EC /* Creature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Creature.m; sourceTree = "<group>"; };
+		6267A50E185A92CC0053C5EC /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		6267A50F185A92CC0053C5EC /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1474,12 +1480,25 @@
 		6267A4FA185A8AED0053C5EC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6267A50B185A92CC0053C5EC /* Model */,
 				6267A4FB185A8AED0053C5EC /* AppDelegate.h */,
 				6267A4FC185A8AED0053C5EC /* AppDelegate.m */,
 				6267A4FE185A8AED0053C5EC /* HelloWorldScene.h */,
 				6267A4FF185A8AED0053C5EC /* HelloWorldScene.m */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		6267A50B185A92CC0053C5EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6267A50C185A92CC0053C5EC /* Creature.h */,
+				6267A50D185A92CC0053C5EC /* Creature.m */,
+				6267A50E185A92CC0053C5EC /* Grid.h */,
+				6267A50F185A92CC0053C5EC /* Grid.m */,
+			);
+			name = Model;
+			path = Classes/Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1569,6 +1588,7 @@
 				6267A338185A8AEB0053C5EC /* CCResponder.m in Sources */,
 				6267A2CE185A8AEA0053C5EC /* CCClippingNode.m in Sources */,
 				6267A441185A8AEC0053C5EC /* CCSlider.m in Sources */,
+				6267A510185A92CC0053C5EC /* Creature.m in Sources */,
 				6267A361185A8AEB0053C5EC /* CCSpriteBatchNode.m in Sources */,
 				6267A385185A8AEB0053C5EC /* CCTransition.m in Sources */,
 				6267A364185A8AEB0053C5EC /* CCSpriteFrame.m in Sources */,
@@ -1705,6 +1725,7 @@
 				6267A3E9185A8AEB0053C5EC /* OALAudioTrackNotifications.m in Sources */,
 				6267A41E185A8AEC0053C5EC /* IOSVersion.m in Sources */,
 				6267A42E185A8AEC0053C5EC /* OALTools.m in Sources */,
+				6267A511185A92CC0053C5EC /* Grid.m in Sources */,
 				6267A48D185A8AEC0053C5EC /* CCBLocalizationManager.m in Sources */,
 				6267A31A185A8AEB0053C5EC /* CCParticleSystem.m in Sources */,
 				6267A447185A8AEC0053C5EC /* CCTextField.m in Sources */,
